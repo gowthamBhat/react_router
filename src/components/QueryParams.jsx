@@ -7,6 +7,8 @@ function QueryParams({ location }) {
     return (
         <div>
             Query Params page
+            <p>name : {parsed.name}</p>
+            <p>email : {parsed.email}</p>
         </div>
     )
 }
